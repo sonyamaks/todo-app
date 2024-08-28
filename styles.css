@@ -1,0 +1,157 @@
+*{
+    font-family: 'Courier Prime', courier, monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.window {
+    background-color: white;
+    padding-top: 0px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modes {
+    margin-bottom: 10px;
+}
+
+#input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Buttons */
+.modeBtn {
+    margin: 5px;
+    padding: 10px;
+    border: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addBtn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+li button {
+    border: none;
+    cursor: pointer;
+    background-color: #f8f9fa;
+}
+
+li button i{
+    color: #56d765;
+}
+
+/* Button hovers */
+
+li button i:hover {
+    color: #218838;
+}
+
+#addBtn:hover {
+    background-color: #218838;
+}
+
+#dekuBtn:hover {
+    background-color: #0f6567;
+}
+
+#hinataBtn:hover {
+    background-color: coral;
+}
+
+#defaultBtn:hover {
+    background-color: black;
+    color: white;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Deku Theme */
+.deku-theme {
+    color: rgb(0, 0, 0);
+    background-color: #0f6567; 
+}
+
+.deku-theme #addBtn {
+    background-color: #a32a1d;
+    color: white;
+}
+
+/* Kageyama Theme */
+.hinata-theme {
+    color: rgb(0, 0, 0);
+    background-color: coral;
+}
+
+.hinata-theme #addBtn {
+    background-color: #333333;
+}
+
+/* Default Theme */
+.default-theme {
+    background-color: white;
+    color: black;
+}
+
+/* Miscelanious */
+#msg {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+#img{
+  
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
